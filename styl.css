@@ -10,23 +10,27 @@ body{
     height: 100%;
     width: 100%;
     text-align: center;
-    background: linear-gradient(to right ,blue,violet);
+    background-color: lightblue;
 }
 form{
-    height: 24rem;
+    height: 50rem;
     width: 30rem;
     flex-direction: column;
     display: flex;
-    box-shadow: 0 11px 32px 0 rgba(31,38,135,.37);
-    border-radius: 30px;
+    box-shadow: 0 8px 32px 0 rgba(135, 31, 64, 0.37);
+    border-radius: 50px;
 }
 h1{
-    color: white;
+    color: black;
 }
 label{
-    color: wheat;
+    color:brown;
 }
 button{
     background-color: green;
+    color: white;
+}
+.sha{
+    background-color: red;
     color: white;
 }
